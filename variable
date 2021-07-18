@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double a=8;
+    int b=9;
+    int e=4;
+    int g=2;
+    double i= 13;
+    int j=17;
+    int k=23;
+    int m=29;
+    printf("%f\n",a+i);
+    printf("%d\n",b*e);
+    printf("%d\n",g/k);
+    printf("%d\n",j-m);
+    return 0;
+}
