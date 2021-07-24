@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+
+    double g;
+    char a;
+    double p;
+    printf("enter the value of g\n");
+    scanf("%lf",&g);
+    printf("enter the operation a\n");
+    scanf(" %c",&a);
+    printf("enter the value of p\n");
+    scanf("%lf",&p);
+    if(a=='+')
+    {
+        printf("the answer is:%lf\n",g+p);
+    }
+
+    else if(a=='-')
+    {
+        printf("the answer is:%lf\n",g-p);
+    }
+    else if(a=='*')
+    {
+        printf("the answer is:%lf\n",g*p);
+    }
+    else if(a=='/')
+    {
+        printf("the answer is:%lf\n",g/p);
+    }
+    else
+    {
+        printf("invalid operation");
+    }
+    return 0;
+}
