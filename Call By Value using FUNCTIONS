@@ -1,0 +1,18 @@
+#include<stdio.h>
+int swap(int a,int b)
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("a=%d\tb=%d\n",a,b);
+    return a;
+}
+int main()
+{
+    int f=100;
+    int j=200;
+    swap(f,j);
+    printf("f=%d\tj=%d\n",f,j);
+    return 0;
+}
