@@ -1,0 +1,22 @@
+#include<stdio.h>
+int swap(int *f,int *j)
+{
+    int temp;
+    temp=*f;
+    *f=*j;
+    *j=temp;
+    printf("f=%d\tj=%d\n",*f,*j);
+    return f;
+}
+int main()
+{
+    int f;
+    int j;
+    printf("enter the value of f\n");
+    scanf("%d",&f);
+    printf("enter the value of j\n");
+    scanf("%d",&j);
+    swap(&f,&j);
+    printf("f=%d\tj=%d",&f,&j);
+    return 0;
+}
